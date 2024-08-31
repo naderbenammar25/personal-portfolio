@@ -1,0 +1,404 @@
+@import url("https://use.typekit.net/jmk3xov.css");
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+
+:root {
+  --dark-bg: rgba(15, 15, 15, 0.95);
+  --spacing: 350px;
+
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+main {
+  width: 100vw;
+  color: rgb(255, 255, 255);
+  z-index: 99;
+  position: absolute;
+  width: 100%;
+  margin: 0px auto;
+  padding: 120px 0px;
+  
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+h1, h2, h3, blockquote {
+  font-family: exwayer;
+  font-weight: 700;
+  font-style: normal;
+  text-shadow: 
+    0 0 5px purple,  /* Ombre proche du texte en bleu foncé */
+    0 0 10px #004f6f, /* Ombre intermédiaire en bleu encore plus foncé */
+    0 0 15px #003f5f;
+    text-align: center;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+
+
+  header {
+    
+    grid-column: 2 / span 5;
+    font-size: 2.5rem;
+    padding: 2rem;
+    margin-bottom: var(--spacing);
+  }
+
+  section {
+    grid-column: 2 / 8;
+    padding: 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    margin-bottom: var(--spacing);
+  }
+
+  blockquote {
+    margin: 0;
+    padding: 0;
+    grid-column: 2 / span 9;
+    margin-bottom: var(--spacing);
+  }
+
+  blockquote p {
+    color: #ffffff;
+    padding: 20px;
+    font-size: 2rem;
+    border-radius: 8px;
+    text-shadow: 
+    0 0 5px red,  /* Ombre proche du texte en bleu foncé */
+    0 0 10px #004f6f, /* Ombre intermédiaire en bleu encore plus foncé */
+    0 0 15px #003f5f;    font-family: drexs;
+  }
+
+  .left {
+    grid-column: 6 / 12;
+  }
+
+  p {
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    text-shadow: 
+    0 0 5px wheat,  /* Ombre proche du texte en bleu foncé */
+    0 0 10px #004f6f, /* Ombre intermédiaire en bleu encore plus foncé */
+    0 0 15px #003f5f;
+  }
+  
+
+  .right {
+    grid-column: 2 / 8;
+  }
+
+  .right img {
+    width: 100%;
+    height: auto;
+  }
+
+  .right p {
+    margin-top: 1rem;
+  }
+
+  .right h2 {
+    margin-top: 2rem;
+  }
+
+  .right h3 {
+    margin-top: 1rem;
+  }
+
+  .right ul {
+    margin-top: 1rem;
+  }
+
+  .right ul li {
+    margin-bottom: 1rem;
+  }
+
+  .right ul li:last-child {
+    margin-bottom: 0;
+  }
+
+  .right ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.25rem;
+  }
+
+  .right ul li a:hover {
+    color: #f0f0f0;
+  }
+
+  .right ul li a:visited {
+    color: white;
+  }
+
+  .right ul li a:active {
+    color: white;
+  }
+
+  .right ul li a:link {
+    color: white;
+  }
+
+  .right ul li a:focus {
+    color: white;
+  }
+
+  .right ul li a:target {
+    color: white;
+  }
+
+  .right ul li a:lang(en) {
+    color: white;
+  }
+
+  .right ul li a:lang(fr) {
+    color: white;
+  }
+
+  .right ul li a:lang(es) {
+    color: white;
+  }
+
+  .right ul li a:lang(de) {
+    color: white;
+  }
+
+  .right ul li a:lang(it) {
+    color: white;
+  }
+
+  .right ul li a:lang(ja) {
+    color: white;
+  }
+
+  .right ul li a:lang(ko) {
+    color: white;
+  }
+
+  .right ul li a:lang(zh) {
+    color: white;
+  }
+
+  .right ul li a:lang(zh-Hant) {
+    color: white;
+  }
+
+  .right ul li a:lang(zh-Hans) {
+    color: white;
+  }
+
+  .right ul li a:lang(zh-Hant-TW) {
+    color: white;
+  }
+
+  .right ul li a:lang
+
+  .right ul li a:lang(zh-Hans-CN) {
+    color: white;
+  }
+
+
+  /* Styles globaux pour les sections */
+section {
+  background: rgba(198, 119, 119, 0.196); /* Couleur plus opaque pour l'en-tête */
+  border-radius: 15px; /* Bordures arrondies */
+  padding: 20px; /* Espacement interne */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre douce pour un effet flottant */
+  margin: 20px; /* Espacement externe */
+}
+
+/* Exemple de style pour un en-tête de section */
+header {
+  border-radius: 15px 15px 15px 15px; /* Bordures arrondies en haut */
+  padding: 15px; /* Espacement interne de l'en-tête */
+  box-shadow: 0 0px 9px  rgba(0, 0, 0, 1); /* Ombre légère pour l'en-tête */
+  
+  text-align: center;
+}
+
+/* Exemple de style pour un bloc de citation */
+blockquote {
+  background: rgba(198, 119, 119, 0.196); /* Couleur plus opaque pour l'en-tête */
+  border-radius: 15px; /* Bordures arrondies */
+  padding: 20px; /* Espacement interne */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre douce pour un effet flottant */
+  margin: 20px; /* Espacement externe */
+}
+
+/* Exemple de style pour un article */
+article {
+  background: rgba(198, 119, 119, 0.175); /* Couleur plus opaque pour l'en-tête */
+  border-radius: 15px; /* Bordures arrondies */
+  padding: 20px; /* Espacement interne */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre douce pour un effet flottant */
+  margin: 20px; /* Espacement externe */
+}
+
+
+
+
+
+/* Style du switch */
+.switch {
+  position: fixed;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  left : 1400px;
+  bottom : 633px;
+}
+
+/* Masquer la case à cocher par défaut */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* Le slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+  border-radius: 34px;
+}
+
+/* Le cercle à l'intérieur du slider */
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+/* Lorsque la case est cochée */
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+/* Déplacer le cercle quand c'est coché */
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+/* Transition pour l'opacité des images */
+#backgroundImage1, #backgroundImage2 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  transition: opacity 1s ease-in-out;
+}
+
+/* Assurez-vous que l'image cachée est invisible */
+#backgroundImage1 {
+  opacity: 1;
+}
+
+#backgroundImage2 {
+  opacity: 0;
+}
+
+.dark {
+  
+  position: fixed;
+  left: 1300px;
+  bottom: 614px;
+  background-attachment: fixed;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.vertical-menu {
+  width: 200px;
+  position: fixed;
+  top: 80px;
+  left: 1270px;
+  height: 100%;
+  background-color: #33333300;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+.vertical-menu a {
+  padding: 15px;
+  text-decoration: none;
+  font-size: 18px;
+  color: wheat;
+  display: block;
+}
+
+.vertical-menu a:hover {
+  border-radius: 15px;
+  color: white;
+}
+
+.vertical-menu a.active {
+  background-color: #8cf6cf;
+  color: white;
+  border-radius: 20px;
+}
+
+section {
+  margin-left: 220px;
+  padding: 15px;
+  height: 100vh; /* Each section takes full screen height */
+}
+
+#introduction {
+height: 550px;}
+#projects
+{
+  height: 1750px;
+}
+#work
+{
+  position:relative ;
+  left: -150px;
+}
